@@ -1,0 +1,24 @@
+{
+  "homePage": {
+    "title": "Exclusive",
+    "home": "Home",
+    "Contact": "Contact",
+    "About": "About",
+    "Sign Up": "Sign Up",
+    "Today's": "Today's",
+    "Categories": "Categories",
+    "This Month": "This Month",
+    "Our Products": "Our Products",
+    "Featured": "Featured",
+    "Support": "Support",
+    "Account": "Account",
+    "Quick Link": "Quick Link",
+    "Download App": "Download App",
+    "Search Results": "Search Results"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "ne": "नेपाली",
+    "en": "English"
+  }
+}

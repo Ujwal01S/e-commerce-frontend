@@ -1,0 +1,262 @@
+import { IProductProps } from "@/constants/product.constant";
+
+export const landingCarouselData = ["/carousel1.jpg", "/carousel2.jpg"];
+
+export const todayProductData: IProductProps[] = [
+  {
+    imageUrl: "/product1.jpg",
+    new: false,
+    noOfRating: 88,
+    rating: 5,
+    title: "HAVIT HV-G92 Gamepad",
+    discountedPrice: 140,
+    price: 160,
+    discountPercent: "40%",
+    id: "1",
+    category: "Gaming Accessories",
+    description:
+      "High-quality gaming gamepad with dual vibration and responsive buttons for enhanced gaming experience.",
+    stock: "In Stock",
+  },
+  {
+    imageUrl: "/product2.jpg",
+    new: false,
+    noOfRating: 75,
+    rating: 4,
+    title: "AK-900 Wired Keyboard",
+    discountedPrice: 135,
+    price: 160,
+    discountPercent: "45%",
+    id: "2",
+    category: "Electronics",
+    description:
+      "Mechanical wired keyboard with RGB backlighting and anti-ghosting technology for gamers and professionals.",
+    stock: "In Stock",
+  },
+  {
+    imageUrl: "/product3.jpg",
+    new: false,
+    noOfRating: 99,
+    rating: 5,
+    title: "IPS LCD Gaming Monitor",
+    discountedPrice: 130,
+    price: 160,
+    discountPercent: "10%",
+    id: "3",
+    category: "Electronics",
+    description:
+      "27-inch IPS LCD gaming monitor with 144Hz refresh rate for smooth gameplay.",
+    stock: "Out of Stock",
+  },
+  {
+    imageUrl: "/product4.jpg",
+    new: false,
+    noOfRating: 99,
+    rating: 4.5,
+    title: "S-Series Comfort Chair",
+    discountedPrice: 125,
+    price: 160,
+    discountPercent: "30%",
+    id: "4",
+    category: "Furniture",
+    description:
+      "Ergonomic office chair with lumbar support and adjustable height for maximum comfort.",
+    stock: "In Stock",
+  },
+  {
+    imageUrl: "/product3.jpg",
+    new: false,
+    noOfRating: 29,
+    rating: 2,
+    title: "Gaming Monitor v2",
+    discountedPrice: 80,
+    price: 160,
+    discountPercent: "12%",
+    id: "5",
+    category: "Electronics",
+    description:
+      "24-inch gaming monitor with 75Hz refresh rate, perfect for casual gamers and office use.",
+    stock: "Out of Stock",
+  },
+  {
+    imageUrl: "/product2.jpg",
+    new: false,
+    noOfRating: 188,
+    rating: 5,
+    title: "Sony Gamepad",
+    discountedPrice: 10,
+    price: 160,
+    discountPercent: "10%",
+    id: "6",
+    category: "Gaming Accessories",
+    description:
+      "Official Sony gamepad with precise controls and motion sensors for immersive gaming experience.",
+    stock: "In Stock",
+  },
+];
+
+export const bestSellingProduct: IProductProps[] = [
+  {
+    id: "7",
+    imageUrl: "/product5.jpg",
+    noOfRating: 65,
+    price: 360,
+    discountedPrice: 260,
+    rating: 5,
+    title: "The north coat",
+    new: false,
+    category: "Clothing",
+    description:
+      "Premium winter coat with waterproof exterior and thermal insulation for extreme weather conditions.",
+    stock: "In Stock",
+  },
+  {
+    id: "8",
+    imageUrl: "/product6.jpg",
+    noOfRating: 54,
+    price: 560,
+    discountedPrice: 290,
+    rating: 2,
+    title: "Gucci duffle bag",
+    new: false,
+    category: "Bags & Luggage",
+    description:
+      "Luxury duffle bag made from premium materials with multiple compartments for travel and daily use.",
+    stock: "Out of Stock",
+  },
+  {
+    id: "9",
+    imageUrl: "/product7.jpg",
+    noOfRating: 12,
+    price: 782,
+    discountedPrice: 780,
+    rating: 3,
+    title: "RGB liquid CPU Cooler",
+    new: false,
+    category: "Gaming Accessories",
+    description:
+      "High-performance liquid CPU cooler with RGB lighting and efficient heat dissipation for gaming PCs.",
+    stock: "In Stock",
+  },
+  {
+    id: "10",
+    imageUrl: "/product8.jpg",
+    noOfRating: 22,
+    price: 666,
+    discountedPrice: 120,
+    rating: 4,
+    title: "Small BookSelf",
+    new: false,
+    category: "Furniture",
+    description:
+      "Compact bookshelf with 3 tiers, perfect for small spaces and home organization.",
+    stock: "In Stock",
+  },
+];
+
+export const ourProductData: IProductProps[] = [
+  {
+    id: "11",
+    imageUrl: "/product9.jpg",
+    noOfRating: 35,
+    price: 100,
+    rating: 3,
+    title: "Breed Dry Dog Food",
+    category: "Pet Supplies",
+    description:
+      "Nutritionally balanced dry dog food with real chicken and essential vitamins for adult dogs.",
+    stock: "In Stock",
+  },
+  {
+    id: "12",
+    imageUrl: "/product10.jpg",
+    noOfRating: 95,
+    price: 360,
+    rating: 4,
+    title: "Canon EOS DSLR Camera",
+    category: "Electronics",
+    description:
+      "Professional DSLR camera with 24.1MP sensor and 4K video recording for photography enthusiasts.",
+    stock: "Out of Stock",
+  },
+  {
+    id: "13",
+    imageUrl: "/product11.jpg",
+    noOfRating: 325,
+    price: 700,
+    rating: 5,
+    title: "ASUS FHD Gaming Laptop",
+    category: "Electronics",
+    description:
+      "Powerful gaming laptop with high-refresh-rate display and dedicated graphics card for gaming and productivity.",
+    stock: "In Stock",
+  },
+  {
+    id: "14",
+    imageUrl: "/product16.jpg",
+    noOfRating: 135,
+    price: 500,
+    rating: 4,
+    title: "Curology Product Set",
+    new: true,
+    category: "Beauty & Health",
+    description:
+      "Complete skincare set with customized formulas for different skin types and concerns.",
+    stock: "In Stock",
+  },
+  {
+    id: "15",
+    imageUrl: "/product12.jpg",
+    noOfRating: 65,
+    price: 960,
+    rating: 5,
+    title: "Kids Electric Car",
+    category: "Toys",
+    description:
+      "Realistic electric car for kids with remote control and safety features for outdoor fun.",
+    stock: "Out of Stock",
+  },
+  {
+    id: "16",
+    imageUrl: "/product13.jpg",
+    noOfRating: 35,
+    price: 1160,
+    rating: 5,
+    title: "Jr.Zoom Soccer Cleats",
+    category: "Sports",
+    description:
+      "Professional soccer cleats with enhanced grip and comfort for young athletes.",
+    stock: "In Stock",
+  },
+  {
+    id: "17",
+    imageUrl: "/product14.jpg",
+    noOfRating: 35,
+    price: 660,
+    rating: 4,
+    title: "GP11 Shooter USB Gamepad",
+    new: true,
+    category: "Gaming Accessories",
+    description:
+      "USB gaming controller with programmable buttons and ergonomic design for PC gaming.",
+    stock: "In Stock",
+  },
+  {
+    id: "18",
+    imageUrl: "/product15.jpg",
+    noOfRating: 35,
+    price: 880,
+    rating: 1,
+    title: "Quilted Satin Jacket",
+    category: "Clothing",
+    description:
+      "Fashionable quilted satin jacket with comfortable fit and stylish design for casual wear.",
+    stock: "Out of Stock",
+  },
+];
+
+export const allProductItems: IProductProps[] = [
+  ...todayProductData,
+  ...bestSellingProduct,
+  ...ourProductData,
+];

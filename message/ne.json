@@ -1,0 +1,24 @@
+{
+  "homePage": {
+    "title": "एक्सक्लुसिभ",
+    "home": "गृहपृष्ठ",
+    "Contact": "सम्पर्क",
+    "About": "हाम्रो बारेमा",
+    "Sign Up": "साइन अप",
+    "Today's": "आजको",
+    "Categories": "श्रेणीहरू",
+    "This Month": "यस महिनाको",
+    "Our Products": "हाम्रा उत्पादनहरू",
+    "Featured": "फिचर्ड",
+    "Support": "सहयोग",
+    "Account": "खाता",
+    "Quick Link": "द्रुत लिङ्क",
+    "Download App": "एप डाउनलोड गर्नुहोस्",
+    "Search Results": "खोज नतिजा"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "en": "English",
+    "ne": "नेपाली"
+  }
+}
