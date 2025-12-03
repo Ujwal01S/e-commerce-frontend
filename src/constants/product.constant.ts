@@ -18,6 +18,7 @@ interface INotificationMessageProps {
   success: string;
   wishlistInCart: string;
   emptyWishList: string;
+  loginRequired: string;
 }
 
 export const notificationMessage: INotificationMessageProps = {
@@ -26,6 +27,7 @@ export const notificationMessage: INotificationMessageProps = {
   success: "Product has successfully been added",
   wishlistInCart: "Product is already in cart",
   emptyWishList: "Wish list is empty",
+  loginRequired: "Login first to perform the action.",
 };
 
 export const productSizes = ["xs", "s", "m", "l", "ml"];

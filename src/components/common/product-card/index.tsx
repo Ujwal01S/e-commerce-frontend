@@ -17,6 +17,7 @@ import {
   successNotification,
 } from "@/utills/toast-notification";
 import { useRouter } from "next/navigation";
+import { useSession } from "next-auth/react";
 
 export const RatingStar = ({ rating }: { rating: number }) => {
   return (
@@ -50,6 +51,7 @@ const ProductCard = ({
   const [isMouseInside, setIsMouseInside] = useState<boolean>(false);
   const [isViewerOpen, setIsViewerOpen] = useState<boolean>(false);
   const router = useRouter();
+  const { data } = useSession();
 
   const { addToWishList, removeFromWishList, wishLists } = useWishListStore();
   const { addToCart, cartItems } = useCartStore();
@@ -85,6 +87,15 @@ const ProductCard = ({
     //   return;
     // }
 
+    if (!data?.user) {
+      router.push("/login");
+      errorNotification({
+        header: "Auth",
+        description: notificationMessage.loginRequired,
+      });
+      return;
+    }
+
     if (wishAlreadyExists) {
       removeFromWishList(id);
     } else {
@@ -105,6 +116,14 @@ const ProductCard = ({
   const addToCarthandler = (e: React.MouseEvent) => {
     e.stopPropagation();
     e.preventDefault();
+    if (!data?.user) {
+      router.push("/login");
+      errorNotification({
+        header: "Auth",
+        description: notificationMessage.loginRequired,
+      });
+      return;
+    }
 
     const productAlreadyExists = cartItems.find((storeId) => storeId.id === id);
     if (productAlreadyExists) {
